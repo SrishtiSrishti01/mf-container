@@ -11,7 +11,7 @@ module.exports = {
       new ModuleFederationPlugin({
         name: 'mfcontainer',
         remotes: {
-          app1: 'app1@http://localhost:3000/remoteEntry.js'
+          app1: 'app1@https://srishtisrishti01.github.io/mf-app/remoteEntry.js'
         },
         shared: ['react', 'react-dom']
       })
